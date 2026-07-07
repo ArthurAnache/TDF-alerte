@@ -16,7 +16,7 @@ import urllib.request
 
 from playwright.sync_api import sync_playwright
 
-THRESHOLD_KM = 125
+THRESHOLD_KM = 15
 STATE_FILE = "state/last_notified.txt"
 RACE_CENTER_URL = "https://racecenter.letour.fr/en/"
 
